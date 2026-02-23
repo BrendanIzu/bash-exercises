@@ -3,5 +3,5 @@
 git checkout main &>/dev/null 2>&1
 git branch --merged | grep -v "main" | xargs -r git branch -d
 
-echo "deleted merged branches!"
+echo "deleted all merged branches!"
 
