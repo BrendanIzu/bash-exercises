@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# clears all merged branches from the local
+git checkout main
+git branch -d $(git branch --merged | grep -v "main")
+
+#!/bin/bash
+
+# clears all merged branches from the local
+git checkout main
+git branch -d $(git branch --merged | grep -v "main")
+

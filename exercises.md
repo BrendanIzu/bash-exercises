@@ -7,7 +7,7 @@ A collection of practical bash scripting exercises to build real-world skills.
 ### 1. Git Branch Cleanup
 Write a script that lists all local git branches and deletes any that have been merged to main.
 
-**Status**: [ ] Not started
+**Status**: [] Not started
 
 ---
 
